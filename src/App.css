@@ -1,0 +1,48 @@
+
+
+div {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+
+button {
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+div > div {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+button {
+  padding: 6px;
+  margin-left: 6px;
+  cursor: pointer;
+}
